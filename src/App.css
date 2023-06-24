@@ -1,0 +1,107 @@
+@media screen and (max-width: 375px) {
+  .App {
+    background-image: url("/public/images/background.png");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+  }
+  .headerRoot {
+    padding: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #00c6ae;
+  }
+  .header_leftPart {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  .menuIcon {
+    width: 23px;
+    height: 23px;
+    color: white;
+  }
+
+  .logoImg {
+    width: 100px;
+    height: 20px;
+  }
+
+  .header_rightPart {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+  }
+
+  .userAvatar {
+    border-radius: 100%;
+    width: 26px;
+    height: 26px;
+  }
+  .messageIcon {
+    width: 25px;
+    height: 25px;
+    color: white;
+  }
+
+  .notificationIcon {
+    width: 25px;
+    height: 25px;
+    color: white;
+  }
+
+  /*  */
+  .mainContainer {
+    max-width: 250px;
+    margin: 30px auto;
+    padding: 40px 35px;
+    background-color: white;
+    border-radius: 30px;
+    opacity: 0.9;
+    height: 337px;
+  }
+  .contentTxt {
+    color: #18191f;
+    font-family: Montserrat;
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-bottom: 30px;
+  }
+
+  .yellowOption {
+    /* width: 257px; */
+    /* height: 90.75px; */
+    border-radius: 100px;
+    background: #ffd465;
+    padding: 10px;
+    margin-bottom: 30px;
+  }
+
+  .blueOption {
+    border-radius: 100px;
+    background: #61e4c5;
+    padding: 10px;
+  }
+
+  .bookIcon {
+    width: 34px;
+    height: 30px;
+    margin: 5px auto;
+    display: flex;
+  }
+
+  .optionContentTxt {
+    font-family: Montserrat;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+}
